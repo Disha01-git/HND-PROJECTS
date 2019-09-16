@@ -1,0 +1,161 @@
+﻿/*Starting the styling of elements on the Style Sheet*/
+#container{
+    width: 1220px; /*The width of the container*/
+    margin: auto; /*The margin will make the container centralised within the web browser*/
+    background-color: #1b1311; /*The background colour of the container*/
+    font-size: 18px; /*The font size of the web application*/
+}
+
+#banner {
+    background-repeat: no-repeat; /*This property will mean that the logo in the banner won't repeat as multiple images*/
+    padding: 30px; /*The spacing of the banner from the container*/
+}
+
+#nav {
+    width: 200px; /*The width of the image seen beside the navigation menu*/
+    float: left; /*The position of the image seen beside the navigation menu*/
+    background-color: #1b1311; /*The background colour of the navigation*/
+    padding: 30px; /*The spacing of the navigation menu from the container*/
+    padding-top:0px;
+}
+
+#content {
+    width: 750px; /*The width of the content area*/
+    float: left; /*The float of the content area for example the content will be seen on the left hand side of the page*/
+}
+
+#content p {
+    padding: 0px; /*The spacing of the paragraph i.e. main body of text on the homepage of the web application*/
+    margin-left: 0px; /*The margin left of the paragraph i.e. main body of text.*/
+    color: white; /*The colour of the paragraph within the content area*/
+}
+
+#content span {
+   color: white;
+   padding-left:10px;
+}
+
+#content table {
+    width: 500px; /*The width of the table within the content area*/
+    margin: auto; /*The margin of the table will be equal on both sides of the table within the content area*/
+}
+
+#content table td {
+    text-align: center; /*The text alignment of table data within the content area*/
+    padding: 10px; /*The padding of the table data within the content area*/
+}
+
+#content #contactstable tr td{
+    text-align:left; /*The text alignment of the contact us table consisting of opening times on the Contact Us Webpage*/
+}
+
+#content img {
+    text-align: center; /*The text alignment of the image within the content area*/
+    padding: 0px; /*The padding of the image within the content area*/
+}
+
+#content table td h3 {
+    color: #ee6462; /*The colour of the heading style within a table consisting of suitable table data*/
+    padding: 0px; /*The padding of the heading style within a table consisting of suitable table data*/
+    margin: 0px; /*The margin of the heading style within a table consisting of suitable table data*/
+}
+
+#content table li { 
+    color: white; /*The colour of the list within a table seen in the content area*/
+}
+
+#content thead h3{
+    color:#ee6462; /*The colour of the heading style within the table head seen in the content area*/
+}
+
+#content tbody td{ 
+    color:white;/*The colour of the table data within the table body seen in the content area*/
+}
+
+#content table td p{
+    text-align:left; /*The text alignment of the paragragh consisting of table data within a table*/
+}
+
+#content h3{
+    color:#ee6462;/*The colour of heading style within the content area*/
+}
+
+#content h4 {
+    color: #ee6462;/*The colour of a different heading style within the content area*/
+}
+
+#nav a:link {
+    display: block; /*Displaying the hyperlinks within the navigation menu in a vertical way rather than a horizontal way*/
+    color: #ee6462; /*The colour of all the hyperlinks within the navigation*/
+    text-decoration: none; /*Removing the underline from the hyperlinks in the navigation menu*/
+    font-weight: 700; /*Making the hyperlinks bold so that they are easy to read for visitors of the website*/
+    font-size: 18px; /*The font size of hyperlinks*/
+}
+
+#nav a:visited {
+    display: block; /*Displaying the visited hyperlinks within the navigation menu in a vertical way rather than a horizontal way*/
+    color: #ee6462; /*The visited colour of all the hyperlinks*/
+}
+
+#nav a:hover {
+    display: block; /*Showing the hyperlinks which are hovered over in the navigation menu in a vertical way rather than a horizontal way*/
+    color: white; /*The hover colour of all the hyperlinks*/
+}
+
+#nav a:active {
+    display: block; /*Displaying the active hyperlinks within the navigation menu in a vertical way rather than a horizontal way*/
+}
+
+#nav a:focus {
+    display: block; /*Displaying the focused hyperlinks within the navigation menu in a vertical way rather than a horizontal way*/
+}
+
+p {
+    color: white; /*The colour of the text within the web application*/
+}
+
+#footer {
+    clear: both;
+    border-top: 1px solid white; /*The border seen at the top of the footer area*/
+}
+
+#footer table{
+    width:100%;/*The width of the footer table*/
+}
+
+#footer td {
+    padding: 30px; /*The padding of the table data seen in the footer area*/
+    text-align: left;/*The text alignment of the table data within the footer area*/
+}
+
+#footer h3{
+    font-size:15px; /*The font size of the heading style within the footer area*/
+    color:#ee6462;/*The colour of the heading style within the footer area*/
+}
+
+#footer h3 span {
+    color:white;
+}
+
+#content a:link {
+    color: #ee6462; /*The colour of all the hyperlinks within the content area*/
+    text-decoration: none; /*Removing the underline from the hyperlinks within the content area*/
+    font-weight: 700; /*Making the hyperlinks bold so that they are easy to read for visitors of the website in the content area*/
+    font-size: 18px; /*The font size of hyperlinks within the content area*/
+}
+
+#content a:visited {
+    color: #ee6462; /*The visited colour of all the hyperlinks within the content area*/
+}
+
+#content a:hover {
+    color: white; /*The hover colour of all the hyperlinks within the content area*/
+}
+
+#content a:active {
+} /*No CSS properties for the active hyperlinks*/
+
+#content a:focus {
+} /*No CSS properties for the focus hyperlinks*/
+
+/*Ending the styling of elements on the Style Sheet*/
