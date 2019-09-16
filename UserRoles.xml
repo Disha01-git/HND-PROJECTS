@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--details of users such as their names and their different role types-->
+<Users>
+  <User>
+    <UserName>Stacey</UserName>
+    <Roles>Administrators</Roles>
+  </User>
+  <User>
+    <UserName>Lynn</UserName>
+    <Roles>Administrators</Roles>
+  </User>
+  <User>
+    <UserName>Nicola</UserName>
+    <Roles>Administrators</Roles>
+  </User>
+  <User>
+    <UserName>Sharon</UserName>
+    <Roles>Administrators</Roles>
+  </User>
+  <User>
+    <UserName>Mary</UserName>
+    <Roles>RegisteredUsers</Roles>
+  </User>
+  <User>
+    <UserName>Monika</UserName>
+    <Roles>RegisteredUsers</Roles>
+  </User>
+  <User>
+    <UserName>Adrienne</UserName>
+    <Roles>RegisteredUsers</Roles>
+  </User>
+  <User>
+    <UserName>Elaine</UserName>
+    <Roles>RegisteredUsers</Roles>
+  </User>
+</Users>
+
