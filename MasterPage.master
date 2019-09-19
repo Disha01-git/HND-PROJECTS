@@ -1,0 +1,63 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html> <!--the type of language the browser will be understanding-->
+
+<html> <!--the HTML code begins-->
+<head runat="server"> <!--the head tag begins. This invloves everything that the user will not see-->
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+    <link href="CSS/StyleSheet.css" rel="stylesheet"/> <!-- linking the stylesheet in the template-->
+    <meta name="keywords" content="hair, beauty, colouring, styling"/> <!-- Keywords for the web application-->
+    <meta name="author" content="Disha Kareer"/> <!-- The name of the author who will be creating the web application-->     <link href="https://fonts.google.com/specimen/Roboto"rel="stylesheet" type="text/css"/> <!-- The external font style will be used within the web application-->
+</head> <!--the head tag ends-->
+<body> <!--the body tag begins. This invloves everything that the user will see-->
+    <form id="form1" runat="server">
+
+		<div id ="container"> <!-- container starts here -->
+        <div id ="banner"> <!-- banner starts here -->
+         <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/Index.aspx">
+             <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/localogo.PNG" />
+             <!--business logo in the banner which links back to the Home Page -->
+            </asp:HyperLink>
+         </div> <!-- banner ends here -->
+
+        <div id ="nav"> <!-- navigation starts here -->
+            <!-- starting to include hyperlinks for navigation menu -->
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Home</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/HTML/AboutUs.aspx">About Us</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/HTML/HairTreatments.aspx">Hair Treatments</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/HTML/BeautyTreatments.aspx">Beauty Treatments</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/HTML/PriceList.aspx">Price List</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/HTML/SpecialOffers.aspx">Special Offers</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/HTML/Blog.aspx">Blog</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/HTML/Gallery.aspx">Gallery</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/HTML/FAQ.aspx">FAQ</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/HTML/TermsandConditions.aspx">Terms and Conditions</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/HTML/ContactUs.aspx">Contact Us</asp:HyperLink>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Sign In" LogoutText="Log Out" />
+            
+        </div> <!-- navigation ends here -->
+
+        <div id ="content"><!-- content starts here -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div> <!-- content ends here -->
+
+        <div id ="footer"> <!-- footer starts here -->
+            
+            <table> <!-- table begins for the footer area of the web application -->
+            <tr> <!-- table row begins for the footer area of the web application -->
+            <!-- table data with heading style, name and copyright notice starts and finishes -->
+            <td><h3>Copyright <span>&copy Loca Hair and Beauty 2018</span></h3></td> 
+            <!-- table data with social media link starts and finishes -->
+            <td><asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="https://en-gb.facebook.com/LocaHairandBeautyBelfast/">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/facebooklogo.png" /></asp:HyperLink></td>
+            </tr> <!-- table row finishes for the footer area of the web application -->
+            </table> <!-- table ends for the footer area of the web application -->
+
+        </div><!-- footer ends here -->
+		</div> <!-- container ends here -->
+    </form>
+</body> <!--the body tag ends.-->
+</html> <!--the HTML code finishes-->
+
+
